@@ -1,5 +1,5 @@
+import 'package:apilearning/photo.dart';
 import 'package:flutter/material.dart';
-
 import 'home_page.dart';
 
 void main() {
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.brown,
+        primarySwatch: Colors.purple,
       ),
-      home: const Homepage()
+      home: const Tryapi()
     );
   }
 }
